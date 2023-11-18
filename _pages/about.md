@@ -9,18 +9,13 @@ redirect_from:
 ---
 
 
-
-![Illustration of combining vision and language modalities](/images/image_to_text_vis.png){: .align-right width="300px"}
 I'm a final-year student at IIT Bombay. I am pursuing an Interdisciplinary Dual Degree Program with a Bachelor's in Electrical Engineering and a Master's in Artificial Intelligence & Data Science.
 
-I am interested in taking inspiration from the brain to create AI algorithms. My research interests include neuromorphic computing, spiking neural networks, self-supervised learning, and designing energy-efficient AI algorithms. Further, I am also interested in AI hardware: hardware-aware ML, algorithm-hardware codesign, and in-memory computing.
+I am interested in taking inspiration from the brain to create AI algorithms. My research interests include neuromorphic computing, spiking neural networks, self-supervised learning, and designing energy-efficient AI algorithms. I am also interested in AI hardware: hardware-aware ML, algorithm-hardware codesign, and in-memory computing.
 
+# Research Experience
 
-
-
-📚 I'm currently working towards my Master's Thesis in the field of Computer Vision and Natural Language Processing.
-
-# Selected Experience
+I am working with Prof. Emre Neftci in the Neuromorphic Software Ecosystems Lab at FZ Julich, Germany. We are working on self-supervised pre-training of spiking neural networks.
 
 ## 🤖 Open Source Contributions
 I have experience contributing to [Arena Bench](https://github.com/Arena-Rosnav) a large open-source project for robotic obstacle avoidance using Deep Reinforcement Learning.
