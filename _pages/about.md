@@ -15,7 +15,11 @@ I am interested in taking inspiration from the brain to create AI algorithms. My
 
 # Research Experience
 
-## Self‑Supervised Pre‑Training of Spiking Neural Networks | Prof. Emre Neftci
+## Self‑Supervised Pre‑Training of Spiking Neural Networks
+Guide: Prof. Emre Neftci, Neuromorphic Software Ecosystems Lab
+ - Self‑supervised contrastive learning: Developing a framework with joint training of an artificial neural network (ANN) and
+spiking neural network (SNN) to assimilate (contrast) related (unrelated) frame‑event stream pairs
+- adee
 
 
 ## Spiking Neural Network Algorithms
