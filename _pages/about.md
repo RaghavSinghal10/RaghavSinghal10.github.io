@@ -30,7 +30,7 @@ Guide: [Prof. Udayan Ganguly, MeLoDe Lab](https://nanomemorylogic.wordpress.com/
 
 ## Enhanced Regularization in On‑Chip Learning | Bachelor’s Thesis, IIT Bombay
 Guide: [Prof. Udayan Ganguly, MeLoDe Lab](https://nanomemorylogic.wordpress.com/) | Head: SemiX, IITB <br>
-Awarded **Undergraduate Research Award 02** for one of the best bachelor’s thesis in the EE department
+Awarded **Undergraduate Research Award 01** for undergraduate research work
  - Proposed an algorithm‑circuit codesign for high‑performance on‑chip learning in artificial neural networks
  - Implemented an analog & temporary on‑chip memory (ATOM) cell with controllable retention timescales for the weights
  - Demonstrated benefits equivalent to regularisation upon using the ATOM cell without any need for additional circuitry
