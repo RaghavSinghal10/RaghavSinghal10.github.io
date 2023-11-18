@@ -15,9 +15,12 @@ I am interested in taking inspiration from the brain to create AI algorithms. My
 
 # Research Experience
 
-I am working with Prof. Emre Neftci in the Neuromorphic Software Ecosystems Lab at FZ Julich, Germany. We are working on self-supervised pre-training of spiking neural networks.
+I am working with Prof. Emre Neftci in the Neuromorphic Software Ecosystems Lab at FZ Julich, Germany. 
+tldr: We are working on self-supervised pre-training of spiking neural networks.
 
 I am working with Prof. Udayan Ganguly in MeLoDe Labs at IIT Bombay. 
+tldr: We are exploring the use of the lottery ticket hypothesis, a pruning method, in recurrent spiking neural networks, and thereby proving their equivalence to liquid state machines.
+
 
 I worked with Prof. Jorg Conradt in Neurocomputing Labs at KTH, Sweden.
 
