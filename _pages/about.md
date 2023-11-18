@@ -15,6 +15,17 @@ I am interested in taking inspiration from the brain to create AI algorithms. My
 
 # Research Experience
 
+## Self‑Supervised Pre‑Training of Spiking Neural Networks | Prof. Emre Neftci
+
+
+## Spiking Neural Network Algorithms
+
+## Enhanced Regularization in On‑Chip Learning
+
+## Analog Temporary Memory for On‑Chip Learning
+
+## Event‑Based Object Tracking with SNNs
+
 I am working with Prof. Emre Neftci in the Neuromorphic Software Ecosystems Lab at FZ Julich, Germany. 
 tldr: We are working on self-supervised pre-training of spiking neural networks.
 
