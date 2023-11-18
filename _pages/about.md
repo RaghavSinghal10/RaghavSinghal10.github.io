@@ -11,13 +11,14 @@ redirect_from:
 
 
 ![Illustration of combining vision and language modalities](/images/image_to_text_vis.png){: .align-right width="300px"}
-👨🏻‍💻 I'm a final-year student at IIT Bombay. I am pursuing an Interdisciplinary Dual Degree Program with a Bachelor's in Electrical Engineering and a Master's in Artificial Intelligence & Data Science.
+I'm a final-year student at IIT Bombay. I am pursuing an Interdisciplinary Dual Degree Program with a Bachelor's in Electrical Engineering and a Master's in Artificial Intelligence & Data Science.
 
-🔬 My research interests are in bridging vision and language modalities and Self-Supervised Learning!
+I am interested in taking inspiration from the brain to create AI algorithms. My research interests include neuromorphic computing, spiking neural networks, self-supervised learning, and designing energy-efficient AI algorithms. Further, I am also interested in AI hardware: hardware-aware ML, algorithm-hardware codesign, and in-memory computing.
+
+
+
 
 📚 I'm currently working towards my Master's Thesis in the field of Computer Vision and Natural Language Processing.
-
-📽️ I am also interested in assisting others on their path in the world of Machine Learning and academia.
 
 # Selected Experience
 
