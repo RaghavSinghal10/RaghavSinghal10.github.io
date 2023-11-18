@@ -80,15 +80,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Boris Meinardus"
+  name             : "Raghav Singhal"
   avatar           : "Profile_pic2.png"
-  bio              : "Multi-Modal Learning \n under Prof. Marcus Rohrbach"
-  location         : "Berlin/ Darmstadt, Germany"
-  employer         : "TU Darmstadt"
+  bio              : "Brain-Inspired AI, Neuromorphic Computing, AI Hardware"
+  location         : "Mumbai, India"
+  employer         : "IIT Bombay"
   pubmed           : 
   googlescholar    : 
-  email            : "boris.meinardus@gmail.com"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  email            : "10raghavsinghal@gmail.com"
+  researchgate     :  
   uri              :
   bitbucket        :
   codepen          :
@@ -96,24 +96,24 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "sudo-Boris"
+  github           : "RaghavSinghal10"
   google_plus      :
   keybase          :
   instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
+  impactstory      :
   lastfm           :
-  linkedin         : "boris-meinardus-ba2302177"
+  linkedin         : "raghav-singhal-a6666b148"
   orcid            : 
   pinterest        :
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    :
   steam            :
   tumblr           :
-  twitter          : "BorisMeinardus"
+  twitter          : 
   vine             :
   weibo            :
   xing             :
-  youtube          : "@borismeinardus"
+  youtube          :
   wikipedia        :
 
 
