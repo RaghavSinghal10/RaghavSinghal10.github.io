@@ -42,7 +42,7 @@ Awarded **Undergraduate Research Award 02** for one of the best bachelor’s the
  - Achieved variability‑awareness along with power, latency, and area improvements over typical on‑chip SRAM
 
 ## Event‑Based Object Tracking with SNNs  | KTH Royal Institute of Technology
-Guide: [Prof. Jörg Conradt](https://scholar.google.com/citations?user=NGdMpTYAAAAJ&hl=en&oi=ao), Neurocomputing Systems Lab
+Guide: [Prof. Jörg Conradt](https://scholar.google.com/citations?user=NGdMpTYAAAAJ&hl=en&oi=ao), Computational Brain Science Lab
  - Contributed to a method to predict spatial coordinates from event data with a spiking convolutional neural network and
 demonstrated faster convergence using translation‑ and scale‑invariant receptive fields
  - Created a custom dataset, which simulated real‑world event‑based vision dataset scenes, for model evaluation
