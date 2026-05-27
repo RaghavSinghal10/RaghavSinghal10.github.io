@@ -38,7 +38,7 @@
                 <!-- </p> -->
                 <p style="text-align:center">
                   <a href="mailto:10raghavsinghal@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?user=Nc4_zNIAAAAJ&hl=en">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://scholar.google.com/citations?hl=en&user=Nc4_zNIAAAAJ&view_op=list_works&sortby=pubdate">Scholar</a> &nbsp;/&nbsp;
                   <a href="https://x.com/ragghhavvv">Twitter</a> &nbsp;/&nbsp;
                   <a href="https://www.linkedin.com/in/raghav-singhal-a6666b148/">LinkedIn</a> &nbsp;/&nbsp;
                   <a href="https://github.com/RaghavSinghal10">Github</a>
@@ -54,27 +54,58 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I spend my time these days working towards improving the foundations of foundation models (in both pretraining and post-training).
+                  My research interests currently revolve around pretraining, data, and robust alignment of language models.
                 </p>
                 <p>
                   Some of the projects I am currently working on include:
                 </p>
                 <ul style="padding-left: 20px; margin-top: 0; margin-bottom: 0;">
-				<li style="margin-bottom: 8px;">Understanding and improving latent reasoning in LLMs.</li>
-                  <li style="margin-bottom: 8px;">Instilling safety in LLMs during pretraining to create a strong prior for post-training, rather than relying on current post-training only approaches that are hacky and easy to break.</li>
-                  <li>Improving the faithfulness of chain-of-thought reasoning in LLMs.</li>
-				
+                  <li style="margin-bottom: 8px;">Developing effective pretraining methods that instill safety (alignment) from token 0, rather than relying on the superficial post-training-only approaches used today.</li>
+                  <li style="margin-bottom: 8px;">Moving toward (almost) fully synthetic data pretraining, for even more robust alignment, while ensuring there is no diversity collapse.</li>
+                  <li style="margin-bottom: 8px;">Understanding and improving how rephrasals and repetitions should be used for learning in the data-constrained regime.</li>
+                  <li>Feedback- (or metadata-) conditioned pretraining, with the aim of moving toward more on-policy updates during pretraining itself.</li>
                 </ul>
                 <p>
                   Check out my <a href="https://scholar.google.com/citations?user=Nc4_zNIAAAAJ&hl=en">Google Scholar</a> for a complete list of publications.
-                  * denotes equal contribution.
+                  * denotes equal contribution. Selected projects are <span style="background-color: #fff5e6; padding: 0 4px;">highlighted</span>.
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
-        <tr>
+        <tr bgcolor="#fff5e6">
+          <td style="padding:16px;width:20%;vertical-align:middle">
+            <img src="images_raghav/spp.png" alt="SPP" width="100%" height="100%" style="border-style: none">
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://www.lesswrong.com/posts/3xQQK9i8mhJDE2uMg/synthetic-persona-pretraining-alignment-from-token-zero" id="MCG_journal">
+            <span class="papertitle">Synthetic Persona Pretraining: Alignment from Token Zero
+            </span>
+            </a>
+            <br>
+            <a href="https://jkminder.ch/">Julian Minder*</a>,
+            <a href="https://vityavitalich.github.io/">Viktor Moskvoretskii*</a>,
+            <strong>Raghav Singhal*</strong>,
+            <a href="https://difanj0713.github.io/">Difan Jiao</a>, Kartik Bali, Yiderigun Borjigin, <a href="https://shaobo.info/">Shaobo Cui</a>, Stefan Krsteski,
+            <a href="https://www.cs.toronto.edu/~ashton/">Ashton Anderson</a>,
+            Roland Aydin,
+            <a href="https://dlab.epfl.ch/people/west/">Robert West</a>
+            <br>
+            <em style="color: #004499;">Blogpost, 2026</em>
+            <br>
+            <a href="https://www.lesswrong.com/posts/3xQQK9i8mhJDE2uMg/synthetic-persona-pretraining-alignment-from-token-zero">blog post</a> /
+            <a href="https://x.com/jkminder/status/2057114869908771144">X thread</a>
+            <p></p>
+            <p>
+            We propose Synthetic Persona Pretraining (SPP): append value-laden reflections to pretraining documents (10% annotated) to install the desired persona during pretraining rather than hope that it will emerge organically. SPP is very simple and purely a pretraining data intervention. Our results demonstrate that SPP models are consistently safer and more aligned than a range of baselines.
+            </p>
+          </td>
+        </tr>
+
+        <tr><td colspan="2" style="height:10px;"></td></tr>
+
+        <tr bgcolor="#fff5e6">
           <td style="padding:16px;width:20%;vertical-align:middle">
             <img src="images_raghav/apertus.png" alt="Apertus" width="100%" height="100%" style="border-style: none">
           </td>
@@ -145,7 +176,6 @@
             <br>
 	<em style="color: #004499;">ACL 2025</em> - <em style="color: #ff6666; font-weight: bold;">Oral (Top 2.2% of submitted papers) </em>
             <br>
-            <a href="https://raghavsinghal10.github.io/fedex-lora_page/">project page</a> /
             <a href="https://github.com/RaghavSinghal10/fedex-lora">code</a> /
             <a href="https://arxiv.org/abs/2410.09432">arXiv</a>
             <p></p>
@@ -173,7 +203,6 @@
             <br>
             <span style="color: #666; font-size: 0.9em;">Abridged at</span> <em style="color: #004499;">ES-FOMO @ ICML 2025</em> - <em style="color: #ff6666; font-weight: bold;">Spotlight (Top 9.5% of accepted papers)</em>
             <br>
-	    <a href="https://rohit01-zoey.github.io/abba-page/">project page</a> /
             <a href="https://github.com/CERT-Lab/abba">code</a> /
             <a href="https://arxiv.org/abs/2505.14238">arXiv</a>
             <p></p>
@@ -186,37 +215,6 @@
 
 
 
-		          <!-- <tr bgcolor="#ffffd0"> -->
-          <td style="padding:16px;width:20%;vertical-align:middle;text-align: center;">
-            <img src="images_raghav/lora-sb-2.jpg" alt="PontTuset" width="140" style="border-style: none">
-          </td>
-          <td style="padding:8px;width:80%;vertical-align:middle">
-            <a href="https://arxiv.org/abs/2411.19557" id="MCG_journal">
-            <span class="papertitle">Initialization using Update Approximation is a Silver Bullet for Extremely Efficient Low-Rank Fine-Tuning
-            </span>
-            </a>
-            <br>
-            <a href="https://kaustubhp11.github.io/">Kaustubh Ponkshe*</a>, 
-            <strong>Raghav Singhal*</strong>, 
-            <a href="https://eduardgorbunov.github.io/">Eduard Gorbunov</a>, 
-            <a href="https://faculty.cc.gatech.edu/~atumanov/">Alexey Tumanov</a>, 
-            <a href="https://sites.google.com/view/samuelhorvath">Samuel Horvath</a>, 
-            <a href="https://praneeth.mit.edu/">Praneeth Vepakomma</a>
-            <br>
-            <span style="color: #666; font-size: 0.9em;">Abridged at</span> <em style="color: #004499;">SCOPE @ ICLR 2025</em>
-            <br>
-            <span style="color: #888; font-style: italic; font-size: 0.9em;">Under review</span>
-            <br>
-            <a href="https://raghavsinghal10.github.io/lora-sb-page/">project page</a> /
-            <a href="https://github.com/CERT-Lab/lora-sb">code</a> /
-            <a href="https://arxiv.org/abs/2411.19557">arXiv</a>
-            <p></p>
-            <p>
-            We provably achieve the best approximation of full fine-tuning in low-rank spaces solely through clever initialization, outperforming LoRA while using up to 90x fewer parameters.
-            </p>
-          </td>
-        </tr>
-		  
             <!-- <tr bgcolor="#ffffd0"> -->
           <td style="padding:16px;width:20%;vertical-align:middle">
             <img src="images_raghav/fed-sb-2.png" alt="PontTuset" width="160" style="border-style: none">
@@ -227,20 +225,47 @@
             </span>
             </a>
             <br>
-            <strong>Raghav Singhal*</strong>, 
-            <a href="https://kaustubhp11.github.io/">Kaustubh Ponkshe*</a>, 
-            Rohit Vartak, 
-            <a href="http://www.varshney.csl.illinois.edu/">Lav Varshney</a>, 
+            <strong>Raghav Singhal*</strong>,
+            <a href="https://kaustubhp11.github.io/">Kaustubh Ponkshe*</a>,
+            Rohit Vartak,
+            <a href="http://www.varshney.csl.illinois.edu/">Lav Varshney</a>,
             <a href="https://praneeth.mit.edu/">Praneeth Vepakomma</a>
             <br>
-            <em style="color: #004499;">TMLR</em>
+            <em style="color: #004499;">NeurIPS 2026</em> | <em style="color: #004499;">TMLR</em> - <em style="color: #ff6666; font-weight: bold;">J2C Certification (Top 10% of accepted papers)</em>
             <br>
-            <a href="https://rohit01-zoey.github.io/fed-sb-page/">project page</a> /
             <a href="https://github.com/CERT-Lab/fed-sb">code</a> /
             <a href="https://arxiv.org/abs/2502.15436">arXiv</a>
             <p></p>
             <p>
             We set a new Pareto frontier for distributed fine-tuning of LLMs, achieving SOTA performance, stronger privacy guarantees, and up to 230x lower communication costs.
+            </p>
+          </td>
+        </tr>
+
+		          <!-- <tr bgcolor="#ffffd0"> -->
+          <td style="padding:16px;width:20%;vertical-align:middle;text-align: center;">
+            <img src="images_raghav/lora-sb-2.jpg" alt="PontTuset" width="140" style="border-style: none">
+          </td>
+          <td style="padding:8px;width:80%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2411.19557" id="MCG_journal">
+            <span class="papertitle">Initialization using Update Approximation is a Silver Bullet for Extremely Efficient Low-Rank Fine-Tuning
+            </span>
+            </a>
+            <br>
+            <a href="https://kaustubhp11.github.io/">Kaustubh Ponkshe*</a>,
+            <strong>Raghav Singhal*</strong>,
+            <a href="https://eduardgorbunov.github.io/">Eduard Gorbunov</a>,
+            <a href="https://faculty.cc.gatech.edu/~atumanov/">Alexey Tumanov</a>,
+            <a href="https://sites.google.com/view/samuelhorvath">Samuel Horvath</a>,
+            <a href="https://praneeth.mit.edu/">Praneeth Vepakomma</a>
+            <br>
+            <span style="color: #666; font-size: 0.9em;">Abridged at</span> <em style="color: #004499;">SCOPE @ ICLR 2025</em>
+            <br>
+            <a href="https://github.com/CERT-Lab/lora-sb">code</a> /
+            <a href="https://arxiv.org/abs/2411.19557">arXiv</a>
+            <p></p>
+            <p>
+            We provably achieve the best approximation of full fine-tuning in low-rank spaces solely through clever initialization, outperforming LoRA while using up to 90x fewer parameters.
             </p>
           </td>
         </tr>
@@ -266,7 +291,6 @@
             <br>
             <em style="color: #004499;">TMLR</em>
             <br>
-            <a href="https://raghavsinghal10.github.io/m3col_page/">project page</a> /
             <a href="https://github.com/RaghavSinghal10/M3CoL">code</a> /
             <a href="https://arxiv.org/abs/2409.17777">arXiv</a>
             <p></p>
@@ -276,6 +300,7 @@
           </td>
         </tr>
 
+        <!--
         <tr>
           <td style="padding:16px;width:20%;vertical-align:middle">
             <img src="images_raghav/qat.jpg" alt="PontTuset" width="160" style="border-style: none">
@@ -287,7 +312,7 @@
             </a>
             <br>
             Anmol Biswas*,
-            <strong>Raghav Singhal*</strong>, 
+            <strong>Raghav Singhal*</strong>,
             Sivakumar Elangovan,
             Shreyas Sabnis,
             <a href="https://www.ee.iitb.ac.in/~udayanresearch/">Udayan Ganguly</a>
@@ -314,8 +339,8 @@
             </span>
             </a>
             <br>
-            <a href="https://jepedersen.dk/">Jens Egholm Pedersen</a>, 
-            <strong>Raghav Singhal</strong>, 
+            <a href="https://jepedersen.dk/">Jens Egholm Pedersen</a>,
+            <strong>Raghav Singhal</strong>,
             <a href="https://tum.neurocomputing.systems/en/research/">Jörg Conradt</a>
             <br>
             <em style="color: #004499;">NICE 2023</em>
@@ -328,6 +353,7 @@
             </p>
           </td>
         </tr>
+        -->
 
 <!-- 
       <tr>

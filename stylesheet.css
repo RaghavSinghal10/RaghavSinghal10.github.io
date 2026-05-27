@@ -100,6 +100,11 @@ h2 {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 700;
+  color: #0f4c5c !important;
+}
+
+a:hover .papertitle {
+  color: #f09228 !important;
 }
 
 .name {
