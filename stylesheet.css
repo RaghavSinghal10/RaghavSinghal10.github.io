@@ -74,6 +74,80 @@ a:hover {
   text-decoration: none;
 }
 
+/* links to paper artifacts (arXiv, code, project pages, ...) */
+a.artifact {
+  color: #bb3e03;
+  text-decoration: none;
+}
+
+a.artifact:focus,
+a.artifact:hover {
+  color: #f09228;
+  text-decoration: none;
+}
+
+.artifact-icon {
+  width: 0.95em;
+  height: 0.95em;
+  vertical-align: -0.13em;
+  margin-right: 3px;
+}
+
+.artifact-icon.ico-gh {
+  fill: #181717;
+}
+
+/* paper thumbnails: pop out on hover */
+.paper-thumb {
+  position: relative;
+  z-index: 1;
+  transition: transform .18s ease-in-out, box-shadow .18s ease-in-out;
+  transform-origin: center left;
+}
+
+.paper-thumb:hover {
+  transform: scale(2.6);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, .3);
+  z-index: 20;
+}
+
+/* brand icons in the header contact line */
+.social-icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.22em;
+}
+
+.social-icon.ico-gh {
+  fill: #181717;
+}
+
+.social-icon.ico-x {
+  fill: #000000;
+}
+
+.social-icon.ico-li {
+  fill: #0a66c2;
+}
+
+.social-icon.ico-scholar {
+  fill: #4285f4;
+}
+
+.artifact-icon.ico-hf {
+  width: 1.35em;
+  height: 1.35em;
+  vertical-align: -0.32em;
+}
+
+.artifact-icon.ico-x {
+  fill: #000000;
+}
+
+.artifact-icon.icon-only {
+  margin-right: 0;
+}
+
 body,
 td,
 th,
@@ -109,6 +183,7 @@ a:hover .papertitle {
 
 .name {
   padding-top: 20px;
+  padding-bottom: 18px;
   margin: 0;
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
   font-size: 32px;
